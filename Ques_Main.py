@@ -14,7 +14,7 @@ from sklearn.svm import SVC, LinearSVC, NuSVC
 
 # In[26]:
 
-f=open('/home/aman/Desktop/QLearn Aman_Malali/train_ques.txt','rU')   #Reads in the training questions text file
+f=open('/home/aman/Desktop/QLearn Aman_Malali/train_questions.txt','rU')   #Reads in the training questions text file
 with open('/home/aman/train_labels.csv','rb') as k:
     reader=csv.reader(k)
     train_labels=list(reader)                                         #Reads in the training labels file
@@ -96,7 +96,7 @@ LinearSVC_classifier.train(training_set)
 
 # In[35]:
 
-x=open('/home/aman/test_ques.txt','rU')     #Opening the testing data and follow the same procedure as for training
+x=open('/home/aman/test_questions.txt','rU')     #Opening the testing data and follow the same procedure as for training
 test_data=x.read()                          #data
 test_set=test_data.splitlines()
 test_set.remove(test_set[0])
