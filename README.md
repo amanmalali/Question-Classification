@@ -2,11 +2,11 @@
 
 ### Prerequisites
 
-Pandas
-Numpy
-SciKitLearn
-Natural Language Toolkit(NLTK)
-Written and compiled on the Jupyter Notebook
+* Pandas
+* Numpy
+* SciKitLearn
+* Natural Language Toolkit(NLTK)
+* Written and compiled on the Jupyter Notebook
 
 ### Preprocessing of data
 
